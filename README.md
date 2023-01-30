@@ -42,5 +42,8 @@
     - being firm but not rude, informing them of the security policy while verifying.
     - By not allowing someone to use the company's computer without permission.
 ### CVE
- 
+ - Red Hat has recently been designated as a CVE Program Root for open-source software for any projects or existing CNAs that prefer Red Hat as their Root.
+ - A Root in the CVE Program is an organization authorized within the CVE Program that is responsible for the recruitment, training, and governance of one or    more CNAs within a specific scope.
+ - CVE Program Partner Since 2002 Red Hat partnered with the CVE Program as a CNA in 2002.
+  #### Why it matters.
   
