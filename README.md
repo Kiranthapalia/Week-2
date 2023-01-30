@@ -54,4 +54,20 @@
   ### 0 SELECT basics
   ![SQL0](https://user-images.githubusercontent.com/102954934/215616798-e7d044a8-0c8f-4bf1-89da-320d9d3ea6a7.jpeg)
 
-    
+    As a former Database Management System this was a piece of cake for me. I just used tha basic Where statement all 3 of those tasks.
+  ### 2 SELECT from World
+  ![SQL 2](https://user-images.githubusercontent.com/102954934/215617195-d54609cf-3f97-47aa-bfba-f85f71a1862e.jpeg)
+  This was fairly easy aswell. We were supposed to do just 5 tasks but I did all of them because it was easy. 
+  - The first 4 tasks were similar to the one we did earlier using th basic `WHERE` statement. 
+  - No 5 was similar but incase of using where name = 'germany'OR where name = 'France' etc we just used where name in ('Germany', 'France') to save time. 
+  - NO 6 we had to find the countried that had the word united in it so we used %united%. 
+  - No 7 This was same as before using the `WHERE` statment following with conditions.
+  - N0 8 The XOR (exclusive or) did not really work for me so i used the where statement where it met just one condition.
+  - NO 9 We just had to use the `Round` statement and show the population in millions by dividing it by 1000000 and GDP in billions by dividing it by             1000000000.
+  - NO 10 It was also pretty much the same except we had to round the value to the nearest 1000$ so i just used the round statement as shown in the fig.
+  - NO 11 Here LENGTH did not work so i had to use LEN , even thought the ans was correct, it did not show anything.
+  - NO 12 This was about matching the firstt letter of name and capital so I used LEFT(name,1)=LEFT(capital,1) and <>(not equals to).
+  - NO 13 This was a bit tricky not because it was difficult but because it was not working in the website but it was working on my own sql. I juse used         WHERE like '%a%' and then or for rest of the vowel with similar statments and Not like '% %' for the space.
+
+## B. Injected. Solve WebGoat:
+  
