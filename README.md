@@ -22,4 +22,4 @@
     - To avoid this Use LIMIT and other SQL controls within queries to prevent bulk record exposure in the event of SQL injection. Also, use affirmative server-       side input validation.
     - Attack scenario examples The following susceptible SQL call is built by an application using unreliable data:
       `String query = "SELECT \* FROM accounts WHERE custID='" + request.getParameter("id") + "'";`
-    
+  #### 
