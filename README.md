@@ -20,4 +20,6 @@
     - Important Common Weakness Lists CWE-79 Cross-site Scripting, CWE-89 SQL Injection, and CWE-73 External Control of File Name or Path are among the CWEs           that are present.
     - When user-provided data is not verified, filtered, or sanitized by the program, the application is open to attack.
     - To avoid this Use LIMIT and other SQL controls within queries to prevent bulk record exposure in the event of SQL injection. Also, use affirmative server-       side input validation.
+    - Attack scenario examples The following susceptible SQL call is built by an application using unreliable data:
+      `String query = "SELECT \* FROM accounts WHERE custID='" + request.getParameter("id") + "'";`
     
