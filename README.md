@@ -1,6 +1,6 @@
 # Week-2
 
-## 1. Read and Summarize
+## X. Read and Summarize
 
 ### OWASP: OWASP 10 2021.
   #### A05:2021-Security Misconfiguration.
@@ -46,4 +46,12 @@
  - A Root in the CVE Program is an organization authorized within the CVE Program that is responsible for the recruitment, training, and governance of one or    more CNAs within a specific scope.
  - CVE Program Partner Since 2002 Red Hat partnered with the CVE Program as a CNA in 2002.
   #### Why it matters.
-  
+    - It is a pleasure and a proud moment for Red Hat to contribute to sharing our CVE story of how and why we became a Root, as well as how we contribute to       the CVE Program's coverage of open-source software.
+    - They work hard to protect customer, contributor, and partner communities from digital security threats.
+    - They believe that following open-source principles is the best way forward.
+    - Red Hat Product Security has consistently shown a proactive approach to identifying issues in the products we ship.
+## A. SQL
+  ### 0 SELECT basics
+  ![SQL0](https://user-images.githubusercontent.com/102954934/215616798-e7d044a8-0c8f-4bf1-89da-320d9d3ea6a7.jpeg)
+
+    
