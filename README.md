@@ -2,7 +2,7 @@
 
 ## 1. Read and Summarize
 
-### OWASP: OWASP 10 2021
+### OWASP: OWASP 10 2021.
   #### A05:2021-Security Misconfiguration.
     - The number of apps analyzed increased from 6 in the previous edition to 90%, with an average incidence rate of 4% and more than 208k occurrences of a           Common Weakness Enumeration CWE in this risk area.
     - It's not unexpected to see this category advance given the increasing changes toward highly customizable software.
@@ -22,5 +22,20 @@
     - To avoid this Use LIMIT and other SQL controls within queries to prevent bulk record exposure in the event of SQL injection. Also, use affirmative server-       side input validation.
     - Attack scenario examples The following susceptible SQL call is built by an application using unreliable data:
       `String query = "SELECT \* FROM accounts WHERE custID='" + request.getParameter("id") + "'";`
-  #### 
-![SQL 0](https://user-images.githubusercontent.com/102954934/215487409-4a70845e-9822-470d-aa0e-ebee4cfde957.jpeg)
+### Darknet Diaries.
+  - Episode 6: The Beirut bank job was chosen for the Darknet Diaries. In essence, it tells the story of a man named Jason who unintentionally robbed the         wrong bank in Beirut. little details about him Jason began his career in law enforcement but has spent the most of the previous twenty years in infosec.
+    He has put in a lot of effort protecting the network, but he has also conducted a lot of penetration testing.
+  - One of his favourite activities is what he calls Security Awareness Engagement, which involves teaching people about the danger that truly exists rather     than engaging red teams or performing pin tests.Companies hire him to evaluate a location's physical security. Even National Geographic videotaped him       doing some of the things he talks about in an episode.
+  - He was given 3 chances to actually compromise the network in 3 different banks. Typically, he uses a pwn plug, a USB rubber ducky, possibly a Proxmark3       tool, a few Dropboxes, or other malicious items to demonstrate to them the harm he is capable of causing to their networks.
+  - As a result, what he essentially does is fabricate an incident or a distraction to lead the bank employees to believe that he is acquainted with those in     positions of authority by making it appear as though he had just left the manager's or supervisor's room. After that, he just poses as an IT                 professional, plugs in his rubber ducky, and uses their mouse while in control of it.
+  - He basically did that to gain access to all the other banks, but when a bank employee questioned him for his ID and he displayed his phony ID and bogus       email, he got into difficulty at the last branch he was supposed to attack. He was then informed that in order to proceed, he must visit the supervisor.
+  - He believed there were only two possibilities: either they would believe him or they would require more evidence. He also believed he had the option of       leaving since he had already accomplished his goal, but there was a third possibility: compromising the wrong bank and being discovered.
+  - Because he didn't know Arabic, it was now impossible for them to grasp that he had actually been hired to rob a bank but had unintentionally robbed the       incorrect one.  Only after spending many hours being questioned and meeting with the bank's security team and convincing from the man who had hired him       to compromise was he permitted to leave, and even then he didn't feel safe until he got back to Paris.
+  
+    #### Lesson Learned 
+    - It is acceptable for them to be suspicious when someone walks in and to call someone to confirm the presence of someone new.
+    - Robbers not only have weapons and ski masks, but also suits and USB drives.
+    - Regardless of whether you expected it or not, be wary of certain e-mails that appear to be from - and include a link to.
+    #### How it could have been prevented?
+ 
+  
