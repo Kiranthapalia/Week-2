@@ -23,3 +23,4 @@
     - Attack scenario examples The following susceptible SQL call is built by an application using unreliable data:
       `String query = "SELECT \* FROM accounts WHERE custID='" + request.getParameter("id") + "'";`
   #### 
+![SQL 0](https://user-images.githubusercontent.com/102954934/215487409-4a70845e-9822-470d-aa0e-ebee4cfde957.jpeg)
