@@ -36,6 +36,11 @@
     - It is acceptable for them to be suspicious when someone walks in and to call someone to confirm the presence of someone new.
     - Robbers not only have weapons and ski masks, but also suits and USB drives.
     - Regardless of whether you expected it or not, be wary of certain e-mails that appear to be from - and include a link to.
-    #### How it could have been prevented?
+    #### How could it have been avoided?
+    - By verifying individuals who do not appear to be familiar.
+    - By not allowing anyone to accompany you into the building with your ID and badge.
+    - being firm but not rude, informing them of the security policy while verifying.
+    - By not allowing someone to use the company's computer without permission.
+### CVE
  
   
