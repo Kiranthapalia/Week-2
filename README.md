@@ -122,3 +122,4 @@
   - https://darknetdiaries.com/episode/6/
   - https://stackoverflow.com/questions/46932389/sql-query-show-name-with-all-vowels
   - https://www.cve.org/Media/News/item/blog/2023/01/10/Why-Red-Hat-Became-Root
+  - https://www.arbexam.blog/webgoat-sql-injection-intro/
