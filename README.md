@@ -76,17 +76,30 @@
   
   <img width="380" alt="wg2" src="https://user-images.githubusercontent.com/102954934/215623151-87ee4ec9-449e-45b9-b1a8-9079432ffbc8.png">
   
-  - UPDATE Employees SET department='Sales' WHERE first_name='Tobi' AND last_name='Barnett';
+  - `UPDATE Employees SET department='Sales' WHERE first_name='Tobi' AND last_name='Barnett';`
   
   <img width="361" alt="wg3" src="https://user-images.githubusercontent.com/102954934/215623331-7815ec2a-d8f3-4720-80a3-1beafb1fc5e4.png">
   
-  - ALTER TABLE Employees ADD phone VARCHAR(20);
+  - `ALTER TABLE Employees ADD phone VARCHAR(20);`
   
   <img width="359" alt="wg4" src="https://user-images.githubusercontent.com/102954934/215623537-233506d1-31fe-440e-af95-1c377a89dbbf.png">
   
-  - GRANT ALTER TABLE TO UnauthorizedUser;
+  - `GRANT ALTER TABLE TO UnauthorizedUser;`
   
   <img width="358" alt="wg5" src="https://user-images.githubusercontent.com/102954934/215623847-52751493-4f64-48e1-9001-0b9b8053f3f3.png">
   
   First SQL injection happens because the input is put straight into the query:
  `SELECT * FROM user_data WHERE first_name='John' AND last_name='' OR '1'='1';`
+ 
+ <img width="401" alt="wg6" src="https://user-images.githubusercontent.com/102954934/215627496-4b7ceb5d-63ff-458a-9cd5-cbf8d1f53839.png">
+ 
+ `' OR '1'='1` I tried this many time trying to figure out what to use.
+ 
+ <img width="414" alt="wg7" src="https://user-images.githubusercontent.com/102954934/215627692-6b6abf1b-45ca-4e30-9643-5396da978a30.png">
+ 
+ `(Login_Count) 1 and (User_Id)'123' OR '1'='1' ` This one literally took me 10-15 to figure out.
+ 
+ <img width="375" alt="wg8" src="https://user-images.githubusercontent.com/102954934/215627941-376a985e-5ca2-4a19-ae9a-a6fe16917c16.png">
+ 
+ 
+
