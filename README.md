@@ -70,4 +70,17 @@
   - NO 13 This was a bit tricky not because it was difficult but because it was not working in the website but it was working on my own sql. I juse used         WHERE like '%a%' and then or for rest of the vowel with similar statments and Not like '% %' for the space.
 
 ## B. Injected. Solve WebGoat:
+  <img width="352" alt="webgoat1" src="https://user-images.githubusercontent.com/102954934/215622422-70b14d37-120f-43d0-97b9-692bb78990e7.png">
+  - `SELECT department FROM Employees WHERE first_name='Bob'` Here we can also add AND last_name='Franco' incase there are two Bob.
+  
+  <img width="380" alt="wg2" src="https://user-images.githubusercontent.com/102954934/215623151-87ee4ec9-449e-45b9-b1a8-9079432ffbc8.png">
+  - UPDATE Employees SET department='Sales' WHERE first_name='Tobi' AND last_name='Barnett';
+  
+  <img width="361" alt="wg3" src="https://user-images.githubusercontent.com/102954934/215623331-7815ec2a-d8f3-4720-80a3-1beafb1fc5e4.png">
+  - ALTER TABLE Employees ADD phone VARCHAR(20);
+  
+  <img width="359" alt="wg4" src="https://user-images.githubusercontent.com/102954934/215623537-233506d1-31fe-440e-af95-1c377a89dbbf.png">
+  - GRANT ALTER TABLE TO UnauthorizedUser;
+  
+  <img width="358" alt="wg5" src="https://user-images.githubusercontent.com/102954934/215623847-52751493-4f64-48e1-9001-0b9b8053f3f3.png">
   
